@@ -66,5 +66,6 @@ for i in range(1,80):
     extract(c)
     print(len(job_list))
 
+# Save result to a csv file
 df = pd.DataFrame(job_list)
 df.to_('Indeed_data')
